@@ -1,0 +1,53 @@
+body {
+  margins: auto;
+  width: 80%;
+}
+
+header {
+  font-family: sans-serif;
+  border: 1px dotted #000;
+  padding: 10px;
+  margin: 10px;
+}
+
+section, article, nav, aside, footer, div {
+  font-family: sans-serif;
+  border: 1px dotted #000;
+  padding: 10px;
+  margin: 10px;
+}
+
+#SiteLogo {
+  float: left;
+  width: 125px;
+  height: 125px;
+}
+
+#SiteTitle {
+  font-size: 50px;
+  padding-left: 140px;
+}
+
+#SiteNavigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
