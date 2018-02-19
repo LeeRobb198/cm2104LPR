@@ -63,6 +63,5 @@ html {
 @media screen and (min-width: 600px) and (max-width: 768px){
   /* For tablets */
   .col-3 {width: 25%;}
-  .col-3 right {width: 50%;}
   .col-6 {width: 50%;}
 }
